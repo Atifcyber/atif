@@ -37,8 +37,7 @@ def Setup():
 try:import httpx
 except:exit(' Found error in http module! ')
 xx=requests.get('https://raw.githubusercontent.com/Atifcyber/atif/main/Atif.txt').text
-def clear():
-	os.system('clear')
+os.system('clear')
 	print(logo)
 logo=("""\033[1;37m
   .d8b.  db   dD d888888b d8b   db  d888b  
